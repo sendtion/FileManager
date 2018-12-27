@@ -106,7 +106,7 @@ class FileManageHelp : FileManage {
     }
 
     /** 设置标题返回按钮图标 */
-    private var titleBackIcon = R.drawable.file_back
+    private var titleBackIcon = R.drawable.ic_arrow_back_black_24dp
     fun getTitleBackIcon() = titleBackIcon
     fun setTitleBackIcon(resId: Int): FileManageHelp {
         this.titleBackIcon = resId
@@ -138,7 +138,7 @@ class FileManageHelp : FileManage {
     }
 
     /** 设置标题更多按钮是否显示 */
-    private var isShowTitleMore = false
+    private var isShowTitleMore = true
     fun getShowTitleMore() = isShowTitleMore
     fun setShowTitleMore(isShowTitleMore: Boolean): FileManageHelp {
         this.isShowTitleMore = isShowTitleMore
