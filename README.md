@@ -1,5 +1,7 @@
 *** 简介
 
+[![](https://jitpack.io/v/sendtion/FileManager.svg)](https://jitpack.io/#sendtion/FileManager)
+
 采用Kotlin编码(100%兼容Java)， SwipeMenuView 该文件使用方式请--->>><a href="https://github.com/jdsjlzx/LRecyclerView">戳这里</a><<<---<br>
 <br>详情请<a href="https://blog.csdn.net/qq_28322987/article/details/81384886">戳这里</a><br>
 <br>
@@ -25,7 +27,7 @@ allprojects {
 Add it in your module build.gradle at dependencies:
 ```
 dependencies {
-    implementation 'com.github.sendtion:FileManager:1.0.0'
+    implementation 'com.github.sendtion:FileManager:1.0.1'
 }
 ```
 
