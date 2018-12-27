@@ -8,6 +8,23 @@
 支持实时排序<br>
 支持指定文件路径访问<br> 
 
+引入方式：
+Add it in your root build.gradle at the end of repositories:
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+Add it in your module build.gradle at dependencies:
+```
+dependencies {
+    implementation 'com.github.sendtion:FileManager:1.0.0'
+}
+```
+
 使用：<br>
 1) 在Application中，请根据需要自行添加，初始均为为默认值<br><br>
 FileManageHelp.getInstance()<br>
